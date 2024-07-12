@@ -43,13 +43,13 @@ namespace Events_Methods
                     System.Web.UI.HtmlControls.HtmlGenericControl addDiv =
        new System.Web.UI.HtmlControls.HtmlGenericControl("DIV");
                 addDiv.ID = "dynDivCode";
-                addDiv.Style.Add(HtmlTextWriterStyle.BackgroundColor, "#89CFF3");
+                addDiv.Style.Add(HtmlTextWriterStyle.BackgroundColor, "#071952");
                 addDiv.Style.Add(HtmlTextWriterStyle.Height, "40px");
                 addDiv.Style.Add(HtmlTextWriterStyle.Width, "1000");
                 addDiv.Style.Add(HtmlTextWriterStyle.BorderStyle, "solid");
-                addDiv.Style.Add(HtmlTextWriterStyle.BorderColor, "#00A9FF");
-                
-                addDiv.InnerHtml = i+ " :Div";
+                addDiv.Style.Add(HtmlTextWriterStyle.BorderColor, "#F2F7A1");
+                addDiv.Style.Add(HtmlTextWriterStyle.MarginBottom, "10px");
+                addDiv.InnerHtml = "This is Div" + i;
                     this.Controls.Add(addDiv);
                 
             }
