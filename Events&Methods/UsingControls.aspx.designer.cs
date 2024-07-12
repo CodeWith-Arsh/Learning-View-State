@@ -24,15 +24,6 @@ namespace Events_Methods
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// txtValue control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtValue;
-
-        /// <summary>
         /// lblResult control.
         /// </summary>
         /// <remarks>
@@ -40,6 +31,15 @@ namespace Events_Methods
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblResult;
+
+        /// <summary>
+        /// txtValue control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtValue;
 
         /// <summary>
         /// btnSubmit control.

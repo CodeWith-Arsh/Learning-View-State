@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -42,9 +43,12 @@ namespace Events_Methods
                     System.Web.UI.HtmlControls.HtmlGenericControl addDiv =
        new System.Web.UI.HtmlControls.HtmlGenericControl("DIV");
                 addDiv.ID = "dynDivCode";
-                addDiv.Style.Add(HtmlTextWriterStyle.BackgroundColor, "Gray");
-                addDiv.Style.Add(HtmlTextWriterStyle.Height, "20px");
+                addDiv.Style.Add(HtmlTextWriterStyle.BackgroundColor, "#89CFF3");
+                addDiv.Style.Add(HtmlTextWriterStyle.Height, "40px");
                 addDiv.Style.Add(HtmlTextWriterStyle.Width, "1000");
+                addDiv.Style.Add(HtmlTextWriterStyle.BorderStyle, "solid");
+                addDiv.Style.Add(HtmlTextWriterStyle.BorderColor, "#00A9FF");
+                
                 addDiv.InnerHtml = i+ " :Div";
                     this.Controls.Add(addDiv);
                 
