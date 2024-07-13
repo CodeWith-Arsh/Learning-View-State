@@ -16,23 +16,26 @@ namespace Events_Methods
 
         protected void MaleRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-
+            Response.Write("Male Radio Button Selected" + "<br/>");
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            if (MaleRadioButton.Checked == true)
+            if (MaleRadioButton.Checked )
             {
-                Response.Write("Your Gender is"+ MaleRadioButton + "<br/>");
+                Response.Write("Your Gender is "+ MaleRadioButton.Text + "<br/>");
             }
-            if (FemaleRadioButton.Checked == true)
+            if (FemaleRadioButton.Checked)
             {
-                Response.Write("Your Gender is" + FemaleRadioButton + "<br/>");
+                Response.Write("Your Gender is " + FemaleRadioButton.Text + "<br/>");
             }
-           
+           if (UnknownRadioButton.Checked)
+            {
+                Response.Write("Your Gender is " + UnknownRadioButton.Text + "<br>");
+            }
         }
 
-        protected void RadioButton1_CheckedChanged(object sender, EventArgs e)
+        protected void Unknown_CheckedChanged(object sender, EventArgs e)
         {
 
         }

@@ -42,13 +42,13 @@ namespace Events_Methods
         protected global::System.Web.UI.WebControls.RadioButton FemaleRadioButton;
 
         /// <summary>
-        /// RadioButton1 control.
+        /// UnknownRadioButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton1;
+        protected global::System.Web.UI.WebControls.RadioButton UnknownRadioButton;
 
         /// <summary>
         /// Button1 control.

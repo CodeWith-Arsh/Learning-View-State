@@ -13,7 +13,7 @@
                 <legend>Gender</legend>
             <asp:RadioButton ID="MaleRadioButton" runat="server" Text="Male" OnCheckedChanged="MaleRadioButton_CheckedChanged" />
             <asp:RadioButton ID="FemaleRadioButton" runat="server" Text="Female" />
-            <asp:RadioButton ID="RadioButton1" runat="server" Text="Other" OnCheckedChanged="RadioButton1_CheckedChanged" />
+            <asp:RadioButton ID="UnknownRadioButton" runat="server" Text="Unknown" OnCheckedChanged="Unknown_CheckedChanged" />
 
             </fieldset>
             <br />
