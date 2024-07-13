@@ -11,14 +11,14 @@
         <div style="font-family:Arial">
             <fieldset style="width:300px">
                 <legend>Gender</legend>
-            <asp:RadioButton ID="MaleRadioButton" runat="server" Text="Male" OnCheckedChanged="MaleRadioButton_CheckedChanged" />
-            <asp:RadioButton ID="FemaleRadioButton" runat="server" Text="Female" />
-            <asp:RadioButton ID="UnknownRadioButton" runat="server" Text="Unknown" OnCheckedChanged="Unknown_CheckedChanged" />
+            <asp:RadioButton ID="MaleRadioButton" runat="server" Text="Male" OnCheckedChanged="MaleRadioButton_CheckedChanged" GroupName="GenderGroup" />
+            <asp:RadioButton ID="FemaleRadioButton" runat="server" Text="Female" GroupName="GenderGroup" />
+            <asp:RadioButton ID="UnknownRadioButton" runat="server" Text="Unknown" OnCheckedChanged="Unknown_CheckedChanged" GroupName="GenderGroup" />
 
             </fieldset>
             <br />
             <br />
-            <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+            <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" EnableViewState="true" />
 
         </div>
     
