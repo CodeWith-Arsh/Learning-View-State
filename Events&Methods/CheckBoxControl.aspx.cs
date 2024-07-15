@@ -12,7 +12,10 @@ namespace Events_Methods
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if(!IsPostBack)
+            {
+                GraduateCheckBox.Focus();
+            }
         }
 
         protected void Button1_Click(object sender, EventArgs e)

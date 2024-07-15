@@ -19,6 +19,9 @@
             <br /><br />
             <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
         </div>
+        <p>
+            <asp:HyperLink ID="HyperLink1" runat="server">Click Here</asp:HyperLink>
+        </p>
     </form>
 </body>
 </html>
