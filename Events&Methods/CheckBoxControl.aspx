@@ -17,11 +17,14 @@
 
                </fieldset>
             <br /><br />
-            <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+            <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" OnClientClick="Are you sure " />
         </div>
         <p>
-            <asp:HyperLink ID="HyperLink1" runat="server">Click Here</asp:HyperLink>
+            <asp:LinkButton runat="server" OnClientClick="return Confirm('are you sure')">LinkButton</asp:LinkButton>
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="https://www.google.com">Click Here</asp:HyperLink>
         </p>
+        <asp:ImageButton ID="ImageButton1" runat="server" Height="62px" ImageUrl="~/images/images (2).jpg" OnClick="ImageButton1_Click" OnClientClick="alert(&quot;Are you sure&quot;);" Width="129px" />
     </form>
 </body>
+
 </html>

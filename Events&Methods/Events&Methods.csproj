@@ -120,8 +120,13 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="DropDown.aspx" />
+    <Content Include="eventHandler.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="images\images %281%29.jpg" />
+    <Content Include="images\images %281%29.png" />
+    <Content Include="images\images %282%29.jpg" />
     <Content Include="RadioButton.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -220,6 +225,20 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DropDown.aspx.cs">
+      <DependentUpon>DropDown.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DropDown.aspx.designer.cs">
+      <DependentUpon>DropDown.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="eventHandler.aspx.cs">
+      <DependentUpon>eventHandler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="eventHandler.aspx.designer.cs">
+      <DependentUpon>eventHandler.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -290,7 +309,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="images\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

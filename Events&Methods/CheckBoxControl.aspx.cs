@@ -35,5 +35,10 @@ namespace Events_Methods
             }
             Response.Write("Your Selection" + sbUserChoices.ToString());
         }
+
+        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
     }
 }

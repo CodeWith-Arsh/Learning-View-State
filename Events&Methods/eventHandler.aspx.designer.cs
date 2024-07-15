@@ -11,7 +11,7 @@ namespace Events_Methods
 {
 
 
-    public partial class CheckBoxControl
+    public partial class eventHandler
     {
 
         /// <summary>
@@ -24,33 +24,6 @@ namespace Events_Methods
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// GraduateCheckBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox GraduateCheckBox;
-
-        /// <summary>
-        /// PostGraduateCheckBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox PostGraduateCheckBox;
-
-        /// <summary>
-        /// PHDCheckbox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox PHDCheckbox;
-
-        /// <summary>
         /// Button1 control.
         /// </summary>
         /// <remarks>
@@ -60,21 +33,48 @@ namespace Events_Methods
         protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// HyperLink1 control.
+        /// PrintButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
+        protected global::System.Web.UI.WebControls.Button PrintButton;
 
         /// <summary>
-        /// ImageButton1 control.
+        /// DeletButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
+        protected global::System.Web.UI.WebControls.Button DeletButton;
+
+        /// <summary>
+        /// Top10Button control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Top10Button;
+
+        /// <summary>
+        /// Bottom10Button control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Bottom10Button;
+
+        /// <summary>
+        /// OutputLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label OutputLabel;
     }
 }
