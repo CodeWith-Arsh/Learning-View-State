@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm2.aspx.cs" Inherits="Events_Methods.WebForm2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Generate Divs.aspx.cs" Inherits="Events_Methods.WebForm2" %>
 
 <!DOCTYPE html>
 

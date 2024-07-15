@@ -11,6 +11,11 @@ namespace Events_Methods
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //if(IsPostBack)
+            //{
+            //    lblOutput.Text = string.Empty;
+
+            //}
 
         }
 
@@ -19,7 +24,7 @@ namespace Events_Methods
             string input = txtInput.Text;
             if (!string.IsNullOrEmpty(input))
             {
-                // Split the input by spaces (or any delimiter you prefer)
+                // Split the input by spaces 
                 string[] elements = input.Split(' ');
 
                 // Clear the previous output
@@ -32,6 +37,7 @@ namespace Events_Methods
                     // Append the div to the label's text
                     lblOutput.Text += div;
                 }
+
             }
         }
     }

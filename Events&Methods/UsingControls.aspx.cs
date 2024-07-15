@@ -28,10 +28,7 @@ namespace Events_Methods
             {
                 // Successfully converted to integer, store in ViewState for persistence
                 ViewState["StoredIntValue"] = intValue;
-
-   
-              
-
+            
             }
             else
             {
